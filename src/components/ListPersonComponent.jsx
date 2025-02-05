@@ -1,7 +1,6 @@
 import React, {useEffect, useState} from "react";
 import {deletePerson, listPersons} from "../services/PersonService.js";
 import {useNavigate} from "react-router-dom";
-import error from "eslint-plugin-react/lib/util/error.js";
 
 const ListPersonComponent = () => {
 
