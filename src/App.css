@@ -31,3 +31,31 @@ body {
 .form-label {
     font-weight: 500;
 }
+
+
+/* Buttons */
+.btn-primary {
+    background-color: #5563DE;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #455acb;
+}
+
+.navbar-brand {
+    font-weight: 600;
+}
+
+.nav-link {
+    margin-right: 1rem;
+}
+
+.btn-link {
+    text-decoration: none;
+}
+
+.container {
+    padding: 1rem;
+}

@@ -12,3 +12,9 @@ export const getPerson = (personId) => axiosInstance.get(`${REST_API_BASE_URL}/$
 export const updatePerson = (personId, person) => axiosInstance.put(`${REST_API_BASE_URL}/${personId}`, person)
 
 export const deletePerson = (personId) => axiosInstance.delete(`${REST_API_BASE_URL}/${personId}`)
+
+export const getProfile = () => axiosInstance.get(`${REST_API_BASE_URL}/profile`)
+
+export const createProfile = (profileData) => axiosInstance.post(`${REST_API_BASE_URL}/profile`)
+
+export const updateProfile = (profileData) => axiosInstance.put(`${REST_API_BASE_URL}/profile`)

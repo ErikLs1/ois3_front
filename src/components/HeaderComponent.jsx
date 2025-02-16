@@ -30,7 +30,7 @@ const HeaderComponent = () => {
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     {token ? (
                         <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
-                            {/* Protected links */}
+                            {/* Protected */}
                             <li className="nav-item">
                                 <Link className="nav-link" to="/persons">
                                     Persons
@@ -49,7 +49,7 @@ const HeaderComponent = () => {
                         </ul>
                     ) : (
                         <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
-                            {/* Public links */}
+                            {/* Public */}
                             <li className="nav-item">
                                 <Link className="nav-link" to="/login">
                                     Login
